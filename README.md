@@ -22,9 +22,15 @@ This project leverages a variety of deep learning models and data visualization 
    - **Audio Segment Signal**: Focuses on specific segments of the audio to analyze detailed sound patterns.
    - **Chroma Features & Spectral Roll-Off**: These plots provide a deeper understanding of the harmonic content and energy distribution across frequencies.
 
-   ![Waveplot & Mel Spectrogram Examples](images/waveplot_mel_spectrogram.png)
-   ![Spectral Roll-off & Audio Segment Example](images/spectral_rolloff_audio_segment.png)
-   ![Chroma Features Example](images/chroma_features.png)
+  #### 1. Waveplot & Mel Spectrogram Examples
+  <img width="859" alt="p2" src="https://github.com/user-attachments/assets/0d0581d8-4c70-4e9a-827d-706c7d5bdb6f">
+  
+  #### 2. Spectral Roll-off & Audio Segment Example
+  <img width="872" alt="p3" src="https://github.com/user-attachments/assets/7b0c67cc-f4e0-43ae-ba95-6c4e0e81775d">
+
+  #### 3. Chroma Features
+  
+<img width="389" alt="Chroma Features" src="https://github.com/user-attachments/assets/79a39c43-3381-4ab2-8f7b-7c8526004007">
 
 ### 2. **Model Development**
    To classify the music genres, I implemented two deep learning models:
@@ -32,7 +38,8 @@ This project leverages a variety of deep learning models and data visualization 
    - **Fully Connected Neural Network (FNN)**: This model acts as the backbone of the system, processing the extracted features to classify the music genres accurately.
    - **CNN & LSTM Hybrid Model**: By combining Convolutional Neural Networks (CNN) with Long Short-Term Memory (LSTM), this model captures both spatial and temporal patterns in the audio, leading to more accurate genre predictions.
 
-   ![Model Architecture](images/model_architecture.png)
+   <img width="355" alt="Model Architecture" src="https://github.com/user-attachments/assets/d3d6e483-23d2-49f0-80cc-2a1911dec32d">
+
 
 ### 3. **Music Recommendation System**
    Building upon the classification model, I developed a **Music Recommendation System**. This system takes an input song and analyzes its features to find and recommend similar tracks, creating a personalized listening experience. Whether you're into jazz, rock, or EDM, this recommendation engine will curate the perfect playlist for you!
@@ -76,3 +83,4 @@ This project was a harmonious blend of my passion for music and the ever-evolvin
 ## 📄 License
 
 This project is licensed under the Apache 2.0 License. Feel free to fork, modify, and use it in your own projects!
+
