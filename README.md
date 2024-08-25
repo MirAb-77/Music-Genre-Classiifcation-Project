@@ -22,9 +22,9 @@ This project leverages a variety of deep learning models and data visualization 
    - **Audio Segment Signal**: Focuses on specific segments of the audio to analyze detailed sound patterns.
    - **Chroma Features & Spectral Roll-Off**: These plots provide a deeper understanding of the harmonic content and energy distribution across frequencies.
 
-   ![Waveplot & Mel Spectrogram Examples]("C:\Users\HP\Downloads\p2.png")
-   ![Spectral Roll-off & Audio Segment Example]("C:\Users\HP\Downloads\p3.png")
-   ![Chroma Features Example]("C:\Users\HP\Downloads\Chroma Features.png")
+   ![Waveplot & Mel Spectrogram Examples](images/waveplot_mel_spectrogram.png)
+   ![Spectral Roll-off & Audio Segment Example](images/spectral_rolloff_audio_segment.png)
+   ![Chroma Features Example](images/chroma_features.png)
 
 ### 2. **Model Development**
    To classify the music genres, I implemented two deep learning models:
@@ -32,7 +32,7 @@ This project leverages a variety of deep learning models and data visualization 
    - **Fully Connected Neural Network (FNN)**: This model acts as the backbone of the system, processing the extracted features to classify the music genres accurately.
    - **CNN & LSTM Hybrid Model**: By combining Convolutional Neural Networks (CNN) with Long Short-Term Memory (LSTM), this model captures both spatial and temporal patterns in the audio, leading to more accurate genre predictions.
 
-   ![Model Architecture](r"C:\Users\HP\Downloads\Model Architecture.png"
+   ![Model Architecture](images/model_architecture.png)
 
 ### 3. **Music Recommendation System**
    Building upon the classification model, I developed a **Music Recommendation System**. This system takes an input song and analyzes its features to find and recommend similar tracks, creating a personalized listening experience. Whether you're into jazz, rock, or EDM, this recommendation engine will curate the perfect playlist for you!
@@ -76,4 +76,3 @@ This project was a harmonious blend of my passion for music and the ever-evolvin
 ## 📄 License
 
 This project is licensed under the Apache 2.0 License. Feel free to fork, modify, and use it in your own projects!
-
